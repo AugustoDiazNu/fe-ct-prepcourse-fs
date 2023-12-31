@@ -1,0 +1,41 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,ol {
+    list-style: none;
+}
+
+/* Remove default padding */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,figure,blockquote,dl,dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set core body defaults */
+body {
+    line-height: 1;
+}
+
+/* Remove text decoration */
+a {
+    text-decoration: none;
+}
+
+/* Remove color inheritance */
+body {
+    color: inherit;
+}
+
+/* Prevent font size adjustments after orientation changes in mobile */
+@viewport {
+    width: device-width;
+}

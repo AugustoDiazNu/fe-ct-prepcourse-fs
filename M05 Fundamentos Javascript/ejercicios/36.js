@@ -3,6 +3,9 @@
 function elevar(num, exponent) {
   // Retorna el valor de "num" elevado al exponente "exponent".
   // Tu código:
+  var elevado = Math.pow(num,exponent);
+  
+  return elevado;
 }
 
 module.exports = elevar;
